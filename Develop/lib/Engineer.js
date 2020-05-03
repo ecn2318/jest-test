@@ -1,9 +1,9 @@
-// TODO: Write code to define and export the Engineer class.  HINT: This class should inherit from Employee.
+//define and export the Engineer class. inherit from Employee class.
 const Employee = require("./Employee").Employee;
 
 class Engineer extends Employee {
     constructor(name, id, email, github) {
-        // Super lets us take all of the methods from Emplyee
+        // Super lets us take all of the methods from Employee
         super()
         this.name = name;
         this.id = id;
